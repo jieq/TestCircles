@@ -1,9 +1,9 @@
 void setup() {
-  size(1000,1000);
-  background(#0000FF);
+  size(500,500);
 }
 
 void draw() {
+  background(#0000FF);
   fill(0);
   ellipse(mouseX, mouseY, 20, 20);
 }
